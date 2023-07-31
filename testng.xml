@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/ISTQB/DemoSec5/GarduationProject">
+        <classes>
+            <class name="Tests.CartTest">
+                <methods>
+                    <include name="addtocart"/>
+                </methods>
+            </class>
+            <class name="Tests.LoginTest">
+                <methods>
+                    <include name="movtologin"/>
+                    <include name="invalidlogin"/>
+                </methods>
+            </class>
+            <class name="Tests.UserAccessTest">
+                <methods>
+                    <include name="hellofun"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
